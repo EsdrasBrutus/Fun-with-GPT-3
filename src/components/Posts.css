@@ -1,0 +1,146 @@
+/* center page */
+
+.container {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.prompt-container {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.promptBox {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    margin: 10px;
+  
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1a72e6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    /* drop shadow */
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+button:hover {
+    background-color: #1357b1;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width : auto;
+}
+
+.button-container
+{
+    width: 300px;
+}
+
+.clear-button {
+    background-color: rgb(197, 5, 5);
+}
+
+.clear-button:hover {
+    background-color: rgb(175, 0, 0);
+}
+
+.model-select {  
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+option {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.textBox {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+
+.posts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(168, 188, 214);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* small delete post button */
+.delete-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(197, 5, 5);
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: rgb(175, 0, 0);
+}
+
+
+
+
+
